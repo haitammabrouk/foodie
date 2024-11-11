@@ -1,0 +1,11 @@
+.order-bar {
+  font-family: "Roboto", sans-serif;
+}
+
+.orderbar-icon {
+  transform: scale(90%);
+}
+
+.decision-icon {
+  transform: scale(70%);
+}

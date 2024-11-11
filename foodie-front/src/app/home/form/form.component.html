@@ -1,0 +1,33 @@
+<form [formGroup]="menuFormGroup" (ngSubmit)="onSubmit()" class="space-y-4 pt-44">
+  <div>
+    <label for="name">
+      Name
+    </label>
+    <input id="name" type="text" formControlName="name">
+  </div>
+  <div>
+    <label for="type">
+      Type
+    </label>
+    <select id="type" formControlName="type">
+      <option *ngFor="let type of menuTypes" [value]="type">{{ type }}</option>
+    </select>
+  </div>
+  <div>
+    <label for="price">
+      Price
+    </label>
+    <input id="price" type="text" formControlName="price">
+  </div>
+  <div>
+    <label for="image">
+      Image
+    </label>
+    <input type="file" (change)="onImageSelected($event)" id="image">
+  </div>
+  <div>
+    <button type="submit">
+      Create Book
+    </button>
+  </div>
+</form>

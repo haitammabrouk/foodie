@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* global colors variables */
+:root {
+  --orange-color: #FC8019;
+  --green-color: #09AA29;
+  --linen-color: #FFF2E8;
+  --black-color: #171826;
+  --grey-color: #9F9F9E;
+  --white-color: #F5F5F5
+}

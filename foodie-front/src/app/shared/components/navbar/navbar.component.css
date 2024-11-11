@@ -1,0 +1,11 @@
+nav {
+  font-family: "Roboto", sans-serif;
+}
+
+.restaurant-icon {
+  transform: scale(100%);
+}
+
+.refresh-icon {
+  transform: scale(115%);
+}

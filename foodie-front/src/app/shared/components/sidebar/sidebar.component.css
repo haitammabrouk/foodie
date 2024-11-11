@@ -1,0 +1,9 @@
+.sidebar-item {
+  transform: scale(105%);
+}
+li.active {
+  background-color: var(--linen-color);
+  color: var(--orange-color);
+  border: 2px solid var(--orange-color);
+  border-radius: 6px;
+}

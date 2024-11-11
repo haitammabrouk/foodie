@@ -1,0 +1,5 @@
+<mat-card [ngClass]="isSelected ? 'selected' : ''" class="w-40 h-60 mat-elevation-z0 rounded-md flex flex-col items-center justify-center space-y-1">
+  <img class="h-32 w-32" src="{{ item.imageUrl }}" alt="" mat-card-image>
+  <mat-card-content class="text-center w-44"><span>{{ item.name }}</span></mat-card-content>
+  <mat-card-footer><span class="font-semibold">{{ item.price | currency:'USD':'symbol':'1.2-2' }}</span></mat-card-footer>
+</mat-card>

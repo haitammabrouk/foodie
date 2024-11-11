@@ -1,0 +1,28 @@
+<div class="flex">
+  <div class="menu bg-white-color h-screen w-[785px] ">
+    <div class="menu-options pt-4">
+      <ul class="menu-types w-11/12 h-12 ml-9 pl-6 rounded-md bg-white text-black-color flex items-center space-x-6 font-medium">
+        <li [ngClass]="currentMenuType === menuType.type ? 'active' : ''" (click)="setMenuType(menuType.type)" class="hover:cursor-pointer hover:bg-linen-color hover:text-orange-color border-2 border-transparent hover:border-orange-color hover:rounded-md px-2 py-1" *ngFor="let menuType of menuTypes">
+          <a>{{ menuType.type }}</a>
+        </li>
+      </ul>
+      <div class="menu-content">
+        <div *ngIf="isMenuLoading; else MenuLoaded" class="menu-card-skeleton-loading">
+          <ul class="w-full h-12 ml-4 space-y-6 items-baseline flex flex-wrap justify-start">
+            <li *ngFor="let item of menuItems" class="ml-6 hover:cursor-pointer">
+              <app-menu-card-skeleton></app-menu-card-skeleton>
+            </li>
+          </ul>
+        </div>
+        <ng-template #MenuLoaded>
+          <ul *ngIf="menuItems.length !== 0" class="w-full h-12 ml-4 space-y-6 items-baseline flex flex-wrap justify-start">
+            <li (click)="toggleSelectedItem(item)" *ngFor="let item of menuItems" class="ml-6 hover:cursor-pointer">
+              <app-menu-card [isSelected] = "isSelected(item)" [item] = "item"></app-menu-card>
+            </li>
+          </ul>
+        </ng-template>
+      </div>
+    </div>
+  </div>
+  <div class="w-[380px]"><app-order-bar></app-order-bar></div>
+</div>

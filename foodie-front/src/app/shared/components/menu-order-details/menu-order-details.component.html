@@ -1,0 +1,21 @@
+<div class="menu-order w-[360px]" #MenuOrder>
+  <div (click)="listDetails()" class="menu-order-name hover:cursor-pointer flex space-x-3 pt-3 h-12 rounded-md font-semibold text-base">
+    <span class="arrow"><mat-icon [@rotateArrow]="isMenuDetailsVisible ? 'down' : 'right'" class="orderbar-icon text-grey-color" fontIcon="keyboard_arrow_right"></mat-icon></span>
+    <span class="num">{{ index + 1 }}</span>
+    <span class="menu-name w-56">{{ item.name }}</span>
+    <span class="price">{{ item.price | currency:'USD':'symbol':'1.2-2'  }}</span>
+    <span (click)="onDelete(item)" class="delete"><mat-icon class="orderbar-icon text-grey-color" fontIcon="cancel"></mat-icon></span>
+  </div>
+  <div class="menu-order-details " [@slideInOut]="isMenuDetailsVisible ? 'visible' : 'hidden'">
+    <form class="pl-12 flex space-x-4 pb-3">
+      <div class="quantity flex flex-col">
+        <label for="quantity" class="text-base">Quantity</label>
+        <input (change)="handleQuantityChange($event)" class="border-2 border-grey-color rounded-md text-right pr-2 h-9 outline-none w-32" id="quantity" type="text" />
+      </div>
+      <div class="discount flex flex-col">
+        <label for="discount" class="text-base">Discount(%)</label>
+        <input (change)="handleDiscountChange($event)" class="border-2 border-grey-color rounded-md text-right pr-2 h-9 outline-none w-32" id="discount" type="text" />
+      </div>
+    </form>
+  </div>
+</div>

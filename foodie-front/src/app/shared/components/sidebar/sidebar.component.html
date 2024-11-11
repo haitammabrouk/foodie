@@ -1,0 +1,18 @@
+<aside class="bg-white w-24 h-screen flex justify-center pt-2 border border-r-[#e3e2e2]">
+  <div class="sidebar-content space-y-32">
+    <ul class="sidebar-items space-y-2">
+      <li [ngClass]="activeItem === sidebarItem.link ? 'active' : ''" class="text-grey-color hover:bg-linen-color hover:text-orange-color border-2 border-transparent hover:border-orange-color hover:rounded-md px-4 py-3" *ngFor="let sidebarItem of sidebarItems">
+        <a class="flex flex-col items-center" routerLink="{{sidebarItem.link}}">
+          <mat-icon class="sidebar-item" fontIcon="{{sidebarItem.icon}}"></mat-icon>
+          <p class="text-xs font-medium">{{sidebarItem.name}}</p>
+        </a>
+      </li>
+    </ul>
+    <ul class="logout">
+      <li (click)="handleLogout()" class="logout pb-5 hover:cursor-pointer flex flex-col items-center text-grey-color hover:text-orange-color">
+        <mat-icon class="sidebar-item" fontIcon="logout"></mat-icon>
+        <p class="text-xs font-medium">Logout</p>
+      </li>
+    </ul>
+  </div>
+</aside>

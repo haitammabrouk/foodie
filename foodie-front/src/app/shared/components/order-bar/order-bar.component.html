@@ -1,0 +1,38 @@
+<div class="order-bar bg-white w-full h-full flex flex-col pt-3 border-l border-l-[#e3e2e2]">
+  <div class="order-bar-content flex-grow">
+    <div class="order-bar-header flex justify-between border-b border-b-[#e3e2e2] pb-3 items-baseline px-3">
+      <div class="add-customer text-black-color">
+        <button class="flex justify-center items-center space-x-1 h-9 w-36 rounded-md bg-white-color">
+          <mat-icon class="orderbar-icon" fontIcon="add"></mat-icon>
+          <span class="font-medium">Add Customer</span>
+        </button>
+      </div>
+      <div class="refresh-list text-black-color">
+        <button (click)="onRefreshSelectedItems()" class="bg-white-color h-9 w-9 rounded-md flex justify-center items-center">
+          <mat-icon class="orderbar-icon" fontIcon="cached"></mat-icon>
+        </button>
+      </div>
+    </div>
+    <div class="flex flex-col justify-between">
+      <div>
+        <ul *ngIf="isMenuLoading; else ItemsLoaded" class="flex flex-col items-center pt-3">
+          <li *ngFor="let item of selectedMenuItems"><app-menu-order-details-skeleton></app-menu-order-details-skeleton></li>
+        </ul>
+      </div>
+      <ng-template #ItemsLoaded>
+        <ul *ngIf="selectedMenuItems.length !== 0" class="flex flex-col items-center pt-3">
+          <li *ngFor="let item of selectedMenuItems; index as i"><app-menu-order-details (discountEmitter)="receiveDiscount($event, i)" (quantityEmitter)="receiveQuantity($event, i)"  [index] = 'i' [item] = "item"></app-menu-order-details></li>
+        </ul>
+      </ng-template>
+    </div>
+  </div>
+  <div class="set-order px-3 pt-2 pb-4 bg-white-color mt-3">
+    <div class="subtotal flex justify-between"><span>Subtotal</span> <span class="font-medium">{{ subTotal | currency:'USD':'symbol':'1.2-2' }}</span></div>
+    <div class="tax flex justify-between"><span>Tax</span> <span class="font-medium">{{ tax | currency:'USD':'symbol':'1.2-2' }}</span></div>
+    <div class="subtotal text-lg font-medium flex justify-between py-2"><span>Payable Amount</span> <span>{{ payableAmount | currency:'USD':'symbol':'1.2-2' }}</span></div>
+    <div class="decision flex justify-between">
+      <button (click)="onDismiss()" class="w-44 h-11 flex justify-center items-center space-x-1 rounded-md bg-orange-color text-white"><mat-icon class="decision-icon" fontIcon="cancel"></mat-icon> <span>Dismiss Cart</span></button>
+      <button class="w-44 h-11 flex justify-center items-center space-x-1 rounded-md bg-green-color text-white" type="submit"><mat-icon class="decision-icon" fontIcon="arrow_circle_right"></mat-icon> <span>Proceed</span></button>
+    </div>
+  </div>
+</div>
