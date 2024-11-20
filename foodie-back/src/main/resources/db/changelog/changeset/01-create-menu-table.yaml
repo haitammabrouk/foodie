@@ -1,0 +1,8 @@
+databaseChangeLog:
+  - changeSet:
+      id: 20240822120737
+      author: haitammk
+      changes:
+        - sqlFile:
+            path: db/changelog/scripts/01-create-menu-table.sql
+            stripComments: true

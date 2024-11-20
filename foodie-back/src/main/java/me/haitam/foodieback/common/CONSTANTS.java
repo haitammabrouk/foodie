@@ -1,2 +1,4 @@
-package me.haitam.foodieback.common;public class CONSTANTS {
+package me.haitam.foodieback.common;
+
+final class CONSTANTS {
 }

@@ -4,30 +4,147 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c16ae33-0113-4cc4-9dfc-4e78dac901fe" name="Changes" comment="" />
+    <list default="true" id="6c16ae33-0113-4cc4-9dfc-4e78dac901fe" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-back/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-back/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-back/src/main/java/me/haitam/foodieback/FoodieBackApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-back/src/main/java/me/haitam/foodieback/FoodieBackApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-back/src/main/java/me/haitam/foodieback/common/API.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-back/src/main/java/me/haitam/foodieback/common/API.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-back/src/main/java/me/haitam/foodieback/common/CONSTANTS.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-back/src/main/java/me/haitam/foodieback/common/CONSTANTS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-back/src/main/java/me/haitam/foodieback/common/FoodieCodeResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-back/src/main/java/me/haitam/foodieback/common/FoodieCodeResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-back/src/main/java/me/haitam/foodieback/common/FoodieResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-back/src/main/java/me/haitam/foodieback/common/FoodieResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-back/src/main/java/me/haitam/foodieback/common/MenuType.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-back/src/main/java/me/haitam/foodieback/common/MenuType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-back/src/main/java/me/haitam/foodieback/config/MinioConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-back/src/main/java/me/haitam/foodieback/config/MinioConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-back/src/main/java/me/haitam/foodieback/mapper/MenuMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-back/src/main/java/me/haitam/foodieback/mapper/MenuMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-back/src/main/java/me/haitam/foodieback/repository/api/MenuRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-back/src/main/java/me/haitam/foodieback/repository/api/MenuRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-back/src/main/java/me/haitam/foodieback/repository/dto/MenuDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-back/src/main/java/me/haitam/foodieback/repository/dto/MenuDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-back/src/main/java/me/haitam/foodieback/repository/entity/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-back/src/main/java/me/haitam/foodieback/repository/entity/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-back/src/main/java/me/haitam/foodieback/security/JwtAuthConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-back/src/main/java/me/haitam/foodieback/security/JwtAuthConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-back/src/main/java/me/haitam/foodieback/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-back/src/main/java/me/haitam/foodieback/security/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-back/src/main/java/me/haitam/foodieback/service/IImageStorageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-back/src/main/java/me/haitam/foodieback/service/IImageStorageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-back/src/main/java/me/haitam/foodieback/service/IMenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-back/src/main/java/me/haitam/foodieback/service/IMenuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-back/src/main/java/me/haitam/foodieback/service/impl/ImageStorageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-back/src/main/java/me/haitam/foodieback/service/impl/ImageStorageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-back/src/main/java/me/haitam/foodieback/service/impl/MenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-back/src/main/java/me/haitam/foodieback/service/impl/MenuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-back/src/main/java/me/haitam/foodieback/web/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-back/src/main/java/me/haitam/foodieback/web/MenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-back/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-back/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-back/src/main/resources/db/changelog/changeset/01-create-menu-table.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-back/src/main/resources/db/changelog/changeset/01-create-menu-table.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-back/src/main/resources/db/changelog/db.changelog-master.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-back/src/main/resources/db/changelog/db.changelog-master.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-back/src/main/resources/db/changelog/scripts/01-create-menu-table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-back/src/main/resources/db/changelog/scripts/01-create-menu-table.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-back/src/test/java/me/haitam/foodieback/FoodieBackApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-back/src/test/java/me/haitam/foodieback/FoodieBackApplicationTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;haitammabrouk&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/haitammabrouk/foodie.git&quot;,
+    &quot;accountId&quot;: &quot;320c1cfd-b4be-4aee-a5a5-0af766e11470&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2ksqvHf4mDnyhXDlFbU6KDjA6oh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;HTTP Request.rest-api_1 | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.rest-api_1 | #2.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.foodie-back [clean,compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.foodie-back [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.FoodieBackApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/MSI/Documents/ecole/e-convention&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\MSI\\Desktop\\foodie-app\\foodie-front\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\MSI\Desktop\foodie-app\foodie-back\src\main\resources\db\changelog\scripts" />
+      <recent name="C:\Users\MSI\Desktop\foodie-app\foodie-front\src\assets" />
+      <recent name="C:\Users\MSI\Desktop\foodie-app\foodie-front\src\app\home" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.FoodieBackApplication">
+    <configuration name="rest-api_1 | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_1.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="rest-api_1 | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_1.http" index="2" requestIdentifier="#2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="FoodieBackApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="foodie-back" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="me.haitam.foodieback.FoodieBackApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.rest-api_1 | #1" />
+        <item itemvalue="HTTP Request.rest-api_1 | #2" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -45,10 +162,62 @@
       <option name="presentableId" value="Default" />
       <updated>1724082862098</updated>
       <workItem from="1724082863766" duration="3000" />
+      <workItem from="1724083253793" duration="11825000" />
+      <workItem from="1724101445826" duration="4156000" />
+      <workItem from="1724235622103" duration="15517000" />
+      <workItem from="1724319340053" duration="12859000" />
+      <workItem from="1724340105177" duration="10459000" />
+      <workItem from="1724358493894" duration="4926000" />
+      <workItem from="1724404456158" duration="9957000" />
+      <workItem from="1724425395915" duration="10531000" />
+      <workItem from="1724614129776" duration="3030000" />
+      <workItem from="1724618194342" duration="2942000" />
+      <workItem from="1724662495146" duration="18547000" />
+      <workItem from="1726044353529" duration="6402000" />
+      <workItem from="1726596729801" duration="951000" />
+      <workItem from="1726768735492" duration="166000" />
+      <workItem from="1726851434992" duration="30000" />
+      <workItem from="1728405028797" duration="61000" />
+      <workItem from="1728419669564" duration="24000" />
+      <workItem from="1730709241477" duration="2001000" />
+      <workItem from="1730736832959" duration="47000" />
+      <workItem from="1730737010547" duration="2767000" />
+      <workItem from="1730886141945" duration="27000" />
+      <workItem from="1730886578124" duration="1119000" />
+      <workItem from="1730888724908" duration="7119000" />
+      <workItem from="1731077204901" duration="3933000" />
+      <workItem from="1731095081253" duration="109000" />
+      <workItem from="1731231470252" duration="17966000" />
+      <workItem from="1731319439219" duration="89000" />
+      <workItem from="1731961957258" duration="1236000" />
+      <workItem from="1732039688477" duration="7000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

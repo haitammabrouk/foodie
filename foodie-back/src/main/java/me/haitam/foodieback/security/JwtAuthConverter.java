@@ -1,4 +1,4 @@
-package security;
+package me.haitam.foodieback.security;
 
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.security.authentication.AbstractAuthenticationToken;
@@ -26,7 +26,6 @@ public class JwtAuthConverter implements Converter<Jwt, AbstractAuthenticationTo
                 jwtGrantedAuthoritiesConverter.convert(jwt).stream(),
                 extractResourceRoles(jwt).stream()
         ).collect(Collectors.toSet());
-        System.out.println(authorities);
         return new JwtAuthenticationToken(jwt, authorities,jwt.getClaim("preferred_username"));
     }
 

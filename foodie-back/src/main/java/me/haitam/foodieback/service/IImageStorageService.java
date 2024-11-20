@@ -1,4 +1,4 @@
-package me.haitam.foodieback.service.impl;
+package me.haitam.foodieback.service;
 
 import org.springframework.web.multipart.MultipartFile;
 

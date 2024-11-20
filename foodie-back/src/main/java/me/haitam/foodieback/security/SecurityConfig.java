@@ -1,4 +1,4 @@
-package security;
+package me.haitam.foodieback.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -18,8 +18,11 @@ import java.util.Arrays;
 @EnableWebSecurity
 public class SecurityConfig {
 
-    @Autowired
-    private JwtAuthConverter jwtAuthConverter;
+    private final JwtAuthConverter jwtAuthConverter;
+
+    public SecurityConfig(JwtAuthConverter jwtAuthConverter) {
+        this.jwtAuthConverter = jwtAuthConverter;
+    }
 
     @Bean
     public SecurityFilterChain configure(HttpSecurity http, HttpSecurity httpSecurity) throws Exception {
